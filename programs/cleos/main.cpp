@@ -160,8 +160,8 @@ bool   tx_force_unique = false;
 bool   tx_dont_broadcast = false;
 bool   tx_skip_sign = false;
 bool   tx_print_json = false;
-bool   print_request = false;
-bool   print_response = false;
+bool   print_request = true;
+bool   print_response = true;
 
 uint8_t  tx_max_cpu_usage = 0;
 uint32_t tx_max_net_usage = 0;
